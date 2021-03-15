@@ -54,6 +54,7 @@ namespace lesson6
             catch(Exception e)
             {
                 Console.WriteLine("При завершении процесса произошла ошибка: " + e.Message);
+                return;
             }
 
             Console.WriteLine($"Процесс \"{process.ProcessName}\" завершён");
